@@ -32,7 +32,7 @@ jobs:
         
         steps:
         - name: Build app on VM
-          uses: appleboy/ssh-action@master
+          uses: appleboy/ssh-action@main
           with:
             host: ${{ secrets.HOST }}
             username: ${{ secrets.PASSWORD }}
